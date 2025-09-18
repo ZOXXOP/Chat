@@ -1,0 +1,42 @@
+{
+  "name": "AnanyaBots Chat Bot",
+  "description": "A telegram bot",
+  "logo": "https://files.catbox.moe/j4anj1.jpg",
+  "keywords": [
+    "Chatbot",
+    "mongodb",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/ZOXXOP/AnanyaChat",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot token from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_URL": {
+      "description": "Get a mongodb url.",
+      "required": true,
+      "value": "mongodb+srv://Akash:Akash@akash.cbqfo1w.mongodb.net/?retryWrites=true&w=majority&appName=Akash"
+    },
+    "OWNER_ID": {
+      "description": "User id of the user who will known as owner of the bot.",
+      "required": true,
+      "value": "8039507909"
+    }
+  }
+}
