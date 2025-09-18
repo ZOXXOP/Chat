@@ -49,7 +49,7 @@
 <p align="center">
   <a href="https://t.me/AnanyaBotSupport
 <p align="center">
-  <a href="https://t.me/ADCREATION_BOT">
+  <a href="https://t.me/CONTECT_OWNR_ROBOT">
     <img src="https://img.shields.io/badge/🤖%20Help%20Bot-%23FF0000?style=for-the-badge&logo=telegram" alt="Help Bot">
   </a>
 </p>
